@@ -18,6 +18,11 @@ public class Hello {
 		System.out.println(220);
 		System.out.println("Please enter your age?");
 		int num = 6;
+		num = num + 2;  //8
+		num = num - 5;  //3
+		num = num / 2;  //?
+		System.out.println(num);
+		
 		int age = 18;
 		int total = 0;
 		long big = 1123456L;
