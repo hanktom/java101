@@ -5,7 +5,15 @@ import java.util.Random;
 public class Hello {
 	
 	public static void main(String[] args) {
+		
 		Random random = new Random();
+		Random r2 = new Random();
+		System.out.println(random.nextInt());
+		
+		String data = "123";
+		System.out.println(data + 1);
+		System.out.println(Integer.parseInt(data) + 1);
+		
 		System.out.println("Hello world");
 		System.out.println(220);
 		System.out.println("Please enter your age?");
@@ -21,5 +29,6 @@ public class Hello {
 		boolean adult = false;
 		boolean paid = true;
 	}
+	
 	
 }
